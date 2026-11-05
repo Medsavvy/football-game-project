@@ -1,36 +1,32 @@
 # Saturday League — Football
 
-A playable browser football game built with plain HTML, CSS, and Canvas—no installs, frameworks, or external assets required.
+A small browser-playable football game made with HTML, CSS, and Canvas.
 
-## Start playing
+## Play
 
-- **[Club career](career.html)** — build and manage your club, then progress through league matchdays. Career saves in your browser.
-- **[Play a match](index.html)** — jump straight into the real-time football game.
+Open `index.html` in a modern browser. The full 90-minute match runs in about three real-time minutes.
 
-## Match controls
+- **WASD / arrow keys** move the selected player
+- **Shift** sprint
+- **Space** shoot when in possession
+- **E** pass
+- **Q** switch to the nearest teammate
+- **Escape** pause; **Enter** restart after full time
+- Touch controls appear on smaller screens
 
-- **WASD** or **arrow keys** — move your selected player
-- **Shift** — sprint (stamina gradually recovers)
-- **Space** — shoot when you have the ball
-- **E** — pass to a teammate
-- **Q** — switch to the player nearest the ball
-- **Esc** — pause or resume
-- **Enter** — start a new match after full time
+## Recent gameplay improvements
 
-Matches now play through the full 90-minute clock in about 3 real minutes, with a half-time message at 45 minutes. The clock moves at 30 in-game seconds per real second. Touch controls are available on small screens.
+- A richer pitch: twelve mowing bands, subtle turf texture and lighting, precise field markings, penalty areas and six-yard boxes, center circle, corner flags, and detailed goal nets.
+- More purposeful team movement: players return to role-based positions, adjust their shape toward the ball, spread out to avoid bunching, support teammates in possession, and defend by pressing or covering space.
+- Smarter ball decisions: AI players look for forward passing options, dribble into open space, and shoot when near goal; opponents challenge for loose balls and possession.
+- Animated spectators, stadium lighting, ad boards, benches, tunnel, player movement, and fluttering kits.
+
+This is still a lightweight 2D game, not a 3D simulation. The players are controlled by simple game AI, but their movement is now designed around team shape, space, and ball possession rather than all chasing the ball.
 
 ## Club career
 
-The career hub adds squad selection and captaincy, four formations, a coin economy, a prospect transfer market, training, upgradeable stadium/training/academy facilities, a league table, matchday progression, simulated results, and browser-local save data. Sign players, train the three lowest-rated players, upgrade your ground, and advance through a ten-match season. Career and the real-time match are separate modes; match results are currently simulated in career mode.
+Open [`career.html`](career.html) to manage your squad, make transfers, train players, upgrade facilities, and progress through the league. Career mode currently simulates match results separately from the live match.
 
-## Matchday features
+## Inspiration
 
-- A striped, textured pitch with center circle, penalty areas, corner flags, goals, and netting
-- Animated spectators, stadium lighting, ad boards, team benches, and a players' tunnel
-- More detailed 2D player sprites with shaded kits, seams, numbers, shadows, and movement-reactive fabric, sleeves, and running limbs
-- Player movement, sprint stamina, ball possession, passing, shooting, and opposing-team AI
-- Responsive layout and keyboard plus touch controls
-
-## Inspiration and scope
-
-An original, lightweight 2D project inspired by the broad appeal of mobile football games such as Dream League Soccer: quick matches, team-versus-team play, goals, responsive controls, club development, and a lively stadium. It does not copy DLS code, branding, art, or proprietary assets. Canvas provides a stylized 2D look rather than true photorealistic 3D graphics. Fully realistic 3D players, online multiplayer, commentary, and licensed-team systems remain larger future features.
+An original project inspired by the broad appeal of football games such as Dream League Soccer. It does not use DLS branding, code, art, or proprietary assets.
