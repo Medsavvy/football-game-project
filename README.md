@@ -15,8 +15,9 @@ A playable browser football game built with plain HTML, CSS, and Canvas—no ins
 - **E** — pass to a teammate
 - **Q** — switch to the player nearest the ball
 - **Esc** — pause or resume
+- **Enter** — start a new match after full time
 
-Touch controls are shown on small screens. Matches feature an on-field clock, score, goals, AI opponents, and automatic kickoffs after goals. A 90-second match ends and resets for another round.
+Matches now play through the full 90-minute clock in about 3 real minutes, with a half-time message at 45 minutes. The clock moves at 30 in-game seconds per real second. Touch controls are available on small screens.
 
 ## Club career
 
@@ -24,12 +25,12 @@ The career hub adds squad selection and captaincy, four formations, a coin econo
 
 ## Matchday features
 
-- A striped, marked pitch with center circle, penalty areas, corner flags, goals, and netting
+- A striped, textured pitch with center circle, penalty areas, corner flags, goals, and netting
 - Animated spectators, stadium lighting, ad boards, team benches, and a players' tunnel
-- Illustrated players with kits, numbers, shadows, and animated running limbs
+- More detailed 2D player sprites with shaded kits, seams, numbers, shadows, and movement-reactive fabric, sleeves, and running limbs
 - Player movement, sprint stamina, ball possession, passing, shooting, and opposing-team AI
 - Responsive layout and keyboard plus touch controls
 
 ## Inspiration and scope
 
-An original, lightweight 2D project inspired by the broad appeal of mobile football games such as Dream League Soccer: quick matches, team-versus-team play, goals, responsive controls, club development, and a lively stadium. It does not copy DLS code, branding, art, or proprietary assets. A small Canvas project cannot reproduce the full 3D presentation, online multiplayer, commentary, or licensed-team systems of a commercial game; those remain larger future features.
+An original, lightweight 2D project inspired by the broad appeal of mobile football games such as Dream League Soccer: quick matches, team-versus-team play, goals, responsive controls, club development, and a lively stadium. It does not copy DLS code, branding, art, or proprietary assets. Canvas provides a stylized 2D look rather than true photorealistic 3D graphics. Fully realistic 3D players, online multiplayer, commentary, and licensed-team systems remain larger future features.
